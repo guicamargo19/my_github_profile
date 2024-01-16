@@ -8,5 +8,6 @@ export const P = styled.p<Props>`
       ? props.theme.corPrincipal
       : props.theme.corSecundaria};
   font-size: ${(props) => (props.fontSize ? props.fontSize + 'px' : '14px')};
-  line-height: 22px;
+  line-height: 20px;
+  padding-bottom: 10px;
 `

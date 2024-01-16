@@ -5,6 +5,7 @@ import { Descricao, BotaoTema, SidebarContainer } from './styles'
 
 type Props = {
   trocarTema: () => void
+  tema: string
 }
 
 const Sidebar = (props: Props) => (
@@ -18,7 +19,19 @@ const Sidebar = (props: Props) => (
       <Descricao tipo="principal" fontSize={12}>
         Engenheiro e Desenvolvedor Full Stack Python
       </Descricao>
-      <BotaoTema onClick={props.trocarTema}>Trocar tema</BotaoTema>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/guilherme-ferreira-camargo/">
+            <i className="bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/guicamargo19">
+            <i className="bi bi-github"></i>
+          </a>
+        </li>
+      </ul>
+      <BotaoTema onClick={props.trocarTema}>{props.tema}</BotaoTema>
     </SidebarContainer>
   </aside>
 )

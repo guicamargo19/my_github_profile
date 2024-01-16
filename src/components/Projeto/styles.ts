@@ -13,4 +13,13 @@ export const LinkBotao = styled.a`
   padding: 8px;
   display: inline-block;
   margin-top: 24px;
+  border-radius: 6px;
+  border: 1px solid ${(props) => props.theme.corFundoBotao};
+  cursor: pointer;
+
+  &:hover {
+    background-color: ${(props) => props.theme.corFundo};
+    color: ${(props) => props.theme.corFundoBotao};
+    border: 1px solid ${(props) => props.theme.corFundoBotao};
+  }
 `
