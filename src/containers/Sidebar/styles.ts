@@ -11,12 +11,13 @@ export const BotaoTema = styled.button`
   font-weight: bold;
   border-radius: 12px;
   padding: 8px;
-  color: #eee;
-  background-color: #282a35;
+  color: ${(props) => props.theme.corFundo};
+  background-color: ${(props) => props.theme.corPrincipal};
   cursor: pointer;
 
   &:hover {
-    background-color: #000;
+    background-color: ${(props) => props.theme.corFundo};
+    color: ${(props) => props.theme.corPrincipal};
   }
 `
 
@@ -24,4 +25,9 @@ export const SidebarContainer = styled.div`
   position: sticky;
   top: 80px;
   left: 0;
+
+  @media (max-width: 768px) {
+    margin-bottom: 40px;
+    text-align: center;
+  }
 `
