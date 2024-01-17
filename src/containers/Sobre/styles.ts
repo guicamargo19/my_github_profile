@@ -14,3 +14,6 @@ export const GitHubSecao = styled.div`
     }
   }
 `
+export const Section = styled.section`
+  text-align: justify;
+`

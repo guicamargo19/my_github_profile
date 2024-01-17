@@ -1,6 +1,6 @@
 import Paragrafo from '../../components/Paragrafo'
 import Title from '../../components/Title'
-import { GitHubSecao } from './styles'
+import { GitHubSecao, Section } from './styles'
 
 type Props = {
   imagem1: string
@@ -8,7 +8,7 @@ type Props = {
 }
 
 const Sobre = (props: Props) => (
-  <section>
+  <Section>
     <Title fontSize={16}>Sobre mim</Title>
     <Paragrafo tipo="principal">Olá 👋</Paragrafo>
     <Paragrafo tipo="principal">
@@ -49,7 +49,7 @@ const Sobre = (props: Props) => (
       <img src={props.imagem1} />
       <img src={props.imagem2} />
     </GitHubSecao>
-  </section>
+  </Section>
 )
 
 export default Sobre

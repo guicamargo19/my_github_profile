@@ -3,6 +3,10 @@ import styled from 'styled-components'
 export const SocialList = styled.div`
     display: flex;
 
+    @media (max-width: 768px) {
+      justify-content: center;
+    }
+
     li {
       padding: 4px;
       font-size: 26px;
