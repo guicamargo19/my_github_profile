@@ -3,6 +3,10 @@ import styled from 'styled-components'
 export const Card = styled.div`
   border: 1px solid ${(props) => props.theme.corBorda};
   padding: 16px;
+
+  p {
+    height: 30px;
+  }
 `
 
 export const LinkBotao = styled.a`

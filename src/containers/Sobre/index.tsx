@@ -63,8 +63,9 @@ const Sobre = (props: Props) => (
     </Paragrafo>
     <Paragrafo tipo="principal">● Testes com Django</Paragrafo>
     <Paragrafo tipo="principal">
-      ● Versionamento com Git e GitHub Actions ● Google Cloud Platform
+      ● Versionamento com Git e GitHub Actions
     </Paragrafo>
+    <Paragrafo tipo="principal">● Google Cloud Platform</Paragrafo>
     <GitHubSecao>
       <img src={props.imagem1} />
       <img src={props.imagem2} />

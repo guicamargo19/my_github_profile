@@ -29,8 +29,8 @@ const Projetos = () => (
       </li>
       <li>
         <Projeto
-          link="https://ebac-tech-talks-alpha-black.vercel.app/"
-          title="EBAC Tech Talks Site"
+          link="https://birthday-parcel.vercel.app/"
+          title="Contador Parcel"
           texto="Projeto em HTML5 e CSS3, JS, Bootstrap, SASS e Parcel"
         />
       </li>

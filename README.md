@@ -1,10 +1,12 @@
-# Meu Portfólio GitHub
+# My GitHub Profile
+
+<img src="public/profile.png">
+
+Este projeto reflete um clone simples da página de profile do GitHub, buscando os dados originais do meu usuário. na API
+do GitHub. Permite alterar o tema da página entre Light e Dark e também é possível acessar os projetos publicados
+na Vercel, GCP (Google Cloud Plataform) e PythonAnywhere quando aplicados.
 
 Projeto desenvolvido no curso de Full Stack Python da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
-
-Este projeto reflete um clone simples da página de profile do GitHub, buscando os dados originais do meu usuário.
-Permite alterar o tema da página entre Light e Dark, também oferece a possibilidade de acessar os projetos publicados
-na Vercel, GCP (Google Cloud Plataform) e PythonAnywhere quando aplicados.
 
 ## 🚀 Começando
 
