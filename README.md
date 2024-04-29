@@ -1,6 +1,8 @@
-# My GitHub Profile
+# Clone Perfil do GitHub
 
-<img src="public/profile.png">
+## Apresentação do projeto
+
+
 
 Este projeto reflete um clone simples da página de profile do GitHub, buscando os dados originais do meu usuário. na API
 do GitHub. Permite alterar o tema da página entre Light e Dark e também é possível acessar os projetos publicados

@@ -14,10 +14,12 @@ export const BotaoTema = styled.button`
   color: ${(props) => props.theme.corFundo};
   background-color: ${(props) => props.theme.corPrincipal};
   cursor: pointer;
+  transition: all ease-in-out 0.2s;
 
   &:hover {
     background-color: ${(props) => props.theme.corFundo};
     color: ${(props) => props.theme.corPrincipal};
+    transition: all ease-in-out 0.2s;
   }
 `
 

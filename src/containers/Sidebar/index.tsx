@@ -18,10 +18,10 @@ const Sidebar = (props: Props) => (
         guicamargo19
       </Paragrafo>
       <Descricao tipo="principal" fontSize={12}>
-        Engenheiro e Desenvolvedor Full Stack Python
+        Engenheiro da computação e Dev Full Stack Python Jr.
       </Descricao>
       <Social />
-      <BotaoTema onClick={props.trocarTema}>{props.tema}</BotaoTema>
+      <BotaoTema onClick={props.trocarTema}>Theme {props.tema}</BotaoTema>
     </SidebarContainer>
   </aside>
 )

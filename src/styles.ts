@@ -6,15 +6,15 @@ const EstiloGlobal = createGlobalStyle`
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
   list-style: none;
 }
 
 body {
   padding-top: 80px;
   padding-bottom: 80px;
-  background-color: ${(props) => (props.theme as Theme).corFundo};
-
+  background: ${(props) => (props.theme as Theme).BackgroundColor};
+  background-position: center;
   @media (max-width: 768px) {
     padding-top: 16px;
   }

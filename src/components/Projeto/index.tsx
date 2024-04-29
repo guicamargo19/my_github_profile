@@ -12,7 +12,7 @@ const Projeto = (props: Props) => (
   <Card>
     <Title>{props.title}</Title>
     <Paragrafo tipo="secundario">{props.texto}</Paragrafo>
-    <LinkBotao href={props.link}>Visualisar</LinkBotao>
+    <LinkBotao href={props.link}>ACESSAR</LinkBotao>
   </Card>
 )
 

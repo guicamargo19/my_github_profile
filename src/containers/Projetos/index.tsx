@@ -29,13 +29,6 @@ const Projetos = () => (
       </li>
       <li>
         <Projeto
-          link="https://birthday-parcel.vercel.app/"
-          title="Contador Parcel"
-          texto="Projeto em HTML5 e CSS3, JS, Bootstrap, SASS e Parcel"
-        />
-      </li>
-      <li>
-        <Projeto
           link="https://imc-react-gray-rho.vercel.app/"
           title="Cálculo IMC React"
           texto="Projeto para calcular IMC feito com ReactJS"
@@ -67,13 +60,6 @@ const Projetos = () => (
           link="https://site-gtatelie.vercel.app/"
           title="Site GT Ateliê"
           texto="Projeto feito em HTML5 e CSS3"
-        />
-      </li>
-      <li>
-        <Projeto
-          link="https://site-tomoda-viagens.vercel.app/"
-          title="Site Tomoda Viagens"
-          texto="Projeto feito em HTML5 e CSS com JQuery Plugins"
         />
       </li>
     </Lista>

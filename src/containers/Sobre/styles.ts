@@ -16,4 +16,12 @@ export const GitHubSecao = styled.div`
 `
 export const Section = styled.section`
   text-align: justify;
+
+  h3 {
+    margin-bottom: 20px;
+  }
+
+  ul > li > p {
+    padding-bottom: 0;
+  }
 `

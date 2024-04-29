@@ -11,9 +11,15 @@ export const SocialList = styled.div`
       padding: 4px;
       font-size: 26px;
       margin-bottom: 20px;
+      transition: all ease-in-out 0.2s;
 
       a {
         color: ${(props) => props.theme.corPrincipal};;
+      }
+
+      &:hover {
+        transform: scale(1.1);
+        transition: all ease-in-out 0.2s;
       }
     }
 
