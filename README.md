@@ -2,7 +2,7 @@
 
 ## Apresentação do projeto
 
-
+https://github.com/guicamargo19/my_github_profile/assets/133445061/f88166ff-bede-4b69-91ef-57c0e3201fc5
 
 Este projeto reflete um clone simples da página de profile do GitHub, buscando os dados originais do meu usuário. na API
 do GitHub. Permite alterar o tema da página entre Light e Dark e também é possível acessar os projetos publicados
